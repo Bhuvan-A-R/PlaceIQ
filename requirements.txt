@@ -1,0 +1,19 @@
+# PlaceBot requirements (conservative ranges; Python 3.11+)
+streamlit>=1.35,<2.0
+PyMuPDF>=1.24,<2.0
+pypdf>=4.0,<6.0            # fallback PDF reader
+pandas>=2.1,<4.0
+jinja2>=3.1                # needed for coloured result tables (pandas Styler)
+numpy>=1.26,<3.0
+rank-bm25>=0.2.2,<0.3
+sentence-transformers>=2.7,<4.0
+faiss-cpu>=1.8,<2.0
+pydantic>=2.6,<3.0
+python-dotenv>=1.0,<2.0
+openpyxl>=3.1,<4.0
+pytest>=8.0,<9.0
+# Only to regenerate the synthetic sample PDFs (scripts/make_sample_pdfs.py)
+reportlab>=4.0,<6.0
+# Optional LLM providers - install only the one you use (see .env.example)
+# anthropic>=0.30
+# openai>=1.30

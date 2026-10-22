@@ -1,0 +1,13 @@
+id,category,query,company,expected_source,expected_evidence,expected_answer_contains,answerable
+Q1,direct,What is the minimum CGPA for Nimbus Soft?,,nimbus_soft_eligibility_SYNTHETIC.pdf,Minimum CGPA | 7.0,7.0,yes
+Q2,direct,What are the selection rounds for Orbit Analytics?,,orbit_analytics_JD_SYNTHETIC.pdf,Round 3 | Technical and HR interview,Case study round;Technical and HR interview,yes
+Q3,policy,Can a student attend another drive after a dream offer?,,placement_policy_SYNTHETIC.pdf,3.2 A student who has accepted a Dream category offer,Super Dream,yes
+Q4,rephrased,I have one active backlog. Can I apply to Orbit Analytics?,,orbit_analytics_eligibility_SYNTHETIC.pdf,Maximum of one active backlog,Maximum of one active backlog,yes
+Q5,multi_document,Which indexed companies allow EEE students with 6.5 CGPA?,,orbit_analytics_eligibility_SYNTHETIC.pdf;quanta_grid_eligibility_revised_SYNTHETIC.pdf,Minimum CGPA | 6.5,Orbit Analytics;CONFLICT,yes
+Q6,unanswerable,What was the average package of last year's CSE batch?,,,,,no
+Q7,direct,What is the bond period for Quanta Grid Systems?,,quanta_grid_JD_SYNTHETIC.pdf,Bond period | 24 months,24 months,yes
+Q8,direct,What is the CTC for Nimbus Soft?,,nimbus_soft_JD_SYNTHETIC.pdf,CTC | 12 LPA,12 LPA,yes
+Q9,conflict,What is the minimum CGPA for Quanta Grid Systems?,,quanta_grid_eligibility_revised_SYNTHETIC.pdf,Minimum CGPA | 6.5,6.5,yes
+Q10,policy,What happens if I withdraw after the first technical round?,,placement_policy_SYNTHETIC.pdf,5.2 A student who withdraws,debarred,yes
+Q11,unanswerable,What is the hostel fee at the campus?,,,,,no
+Q12,unanswerable,Does Nimbus Soft offer stock options to freshers?,,,,,no
